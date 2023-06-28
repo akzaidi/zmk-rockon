@@ -67,10 +67,10 @@
             label = "Default";
             bindings = <
     &kp ESC    &kp N1      &kp N2      &kp N3      &kp N4        &kp N5       &kp LPAR                                     &kp RPAR        &kp N6         &kp N7        &kp N8        &kp N9      &kp N0      &kp BSPC
-    &kp LCTRL    &kp Q     &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &kp Y          &kp U         &kp I         &kp O       &kp P       &kp BSLH
-    &kp TAB   &hm LCTL A   &kp S       &kp D       &kp F         &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt MOUSE H    &kp J         &kp K         &kp L       &hm RCTL SEMI  &kp SQT
+    &kp LCTRL  &kp Q       &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &kp Y          &kp U         &kp I         &kp O       &kp P       &kp BSLH
+    &kp TAB    &hm LCTL A  &kp S       &kp D       &kp F         &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt MOUSE H    &kp J         &kp K         &kp L       &hm RCTL SEMI  &kp SQT
     &kp LSHIFT &kp Z       &kp X       &kp C       &kp V         &kp B        &kp MINUS                                    &kp EQUAL       &kp N          &kp M         &kp COMMA     &kp DOT     &kp FSLH    &kp RET
-                           &kp GRAVE   &kp LCTL    &kp LALT      &kp LGUI     &lt FUNC TAB      &trans        &trans       &lt NAV BSPC    &lt SYM SPACE  &kp SQT       &kp RGUI      &kp RCTL
+                           &kp GRAVE   &kp LCTL    &kp LGUI      &kp LALT     &lt FUNC LSHIFT      &trans        &trans    &lt NAV BSPC    &lt SYM SPACE  &kp SQT       &kp RGUI      &kp RCTL
             >;
         };
 
