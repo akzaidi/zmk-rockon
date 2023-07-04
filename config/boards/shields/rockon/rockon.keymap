@@ -109,7 +109,7 @@
     &trans     &bootloader  &kp LC(PG_DN) &kp LS(UP)   &kp LC(PG_UP) &trans        &trans                                  &trans     &kp C_PLAY_PAUSE &kp LCTRL(TILDE)       &kp LG(TAB)       &kp F9      &kp F10     &trans
     &trans     &kp LS(HOME) &kp LS(LEFT)  &kp LS(DOWN) &kp LS(RIGHT) &kp LS(END)   &trans                                  &trans     &kp K_VOL_UP     &kp LA(TAB)            &kp LA(LS(TAB))   &kp F6      &kp F11     &trans
     &trans     &trans       &trans        &trans       &trans        &kp C_MUTE    &trans                                  &trans     &kp K_VOL_DN     &kp F5                 &kp F2            &kp F3      &kp F12     &trans
-                            &trans        &trans       &trans        &trans        &trans      &trans        &trans        &kp LG(P)     &kp LG(Z)          &kp LG(C)              &trans            &trans
+                            &trans        &trans       &trans        &trans        &trans      &trans        &trans        &kp LG(P)  &kp LG(Z)        &kp LG(C)              &trans            &trans
             >;
         };
 
