@@ -81,11 +81,11 @@
                 label = "Navigation";
                 
                 bindings = <
-    &trans     &trans       &trans       &trans      &trans        &trans        &trans                                  &trans         &trans        &trans       &trans         &trans      &trans           &trans
-    &trans     &kp HOME     &kp UP       &kp END     &trans        &trans        &trans                                  &trans         &trans        &trans       &kp UP         &kp PLUS    &kp HOME         &trans 
-    &trans     &kp LEFT     &kp DOWN     &kp RIGHT   &trans        &trans        &trans                                  &trans         &trans        &kp LEFT     &kp DOWN       &kp RIGHT   &kp END          &trans 
-    &trans     &trans       &trans       &trans      &trans        &trans        &trans                                  &trans         &trans        &trans       &trans         &trans      &trans           &trans
-                            &trans       &trans      &trans        &trans        &trans       &trans        &trans       &trans         &trans        &trans       &trans         &trans
+    &trans     &trans       &trans       &trans      &trans        &trans         &trans                                  &trans         &trans        &trans       &trans         &trans      &trans           &trans
+    &trans     &kp HOME     &kp UP       &kp END     &trans        &trans         &trans                                  &trans         &trans        &trans       &kp UP         &kp PLUS    &kp HOME         &trans 
+    &trans     &kp LEFT     &kp DOWN     &kp RIGHT   &kp LG(P)     &trans         &trans                                  &trans         &trans        &kp LEFT     &kp DOWN       &kp RIGHT   &kp END          &trans 
+    &trans     &trans       &trans       &trans      &trans        &trans         &trans                                  &trans         &trans        &trans       &trans         &trans      &trans           &trans
+                            &trans       &trans      &trans        &kp LA(BSLH)   &LALT       &trans        &trans       &kp RALT       &kp LA(BSLH)   &trans       &trans         &trans
             >;
         };
 
