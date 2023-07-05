@@ -81,11 +81,11 @@
                 label = "Navigation";
                 
                 bindings = <
-    &trans     &trans       &trans       &trans      &trans        &trans      &trans                                  &trans     &trans        &trans       &trans        &trans      &trans           &trans
-    &trans     &kp HOME     &kp ESC      &trans      &trans        &trans      &trans                                  &trans     &kp ASTRK     &kp MINUS    &kp UP        &kp PLUS    &trans           &kp HOME
-    &trans     &trans       &kp LEFT     &trans      &trans        &kp END     &trans                                  &trans     &kp FSLH      &kp LEFT     &kp DOWN      &kp RIGHT   &trans           &kp END
-    &trans     &trans       &trans       &trans      &trans        &trans      &trans                                  &trans     &kp EQUAL     &kp LG(P)    &kp LG(LS(P)) &trans      &trans           &trans
-                            &trans       &trans      &trans        &trans      &kp TAB      &trans        &trans       &kp BSPC   &kp SPACE     &kp DOT      &trans        &trans
+    &trans     &trans       &trans       &trans      &trans        &trans        &trans                                  &trans         &trans        &trans       &trans        &trans      &trans           &trans
+    &trans     &kp HOME     &kp UP       &kp END     &trans        &trans        &trans                                  &trans         &kp ASTRK     &kp MINUS    &kp UP        &kp PLUS    &trans           &kp HOME
+    &trans     &kp LEFT     &kp DOWN     &kp RIGHT   &trans        &trans        &trans                                  &trans         &kp FSLH      &kp LEFT     &kp DOWN      &kp RIGHT   &trans           &kp END
+    &trans     &trans       &trans       &trans      &trans        &trans        &trans                                  &trans         &kp EQUAL     &kp LG(P)    &kp LG(LS(P)) &trans      &trans           &trans
+                            &trans       &trans      &trans        &kp LA(TAB)   &kp TAB      &trans        &trans       &kp LC(DOWN)   &kp ALT       &kp DOT      &trans        &trans
             >;
         };
 
