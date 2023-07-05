@@ -109,7 +109,7 @@
     &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(TILDE) &trans                                  &trans     &kp C_PLAY_PAUSE &kp LC(GRAVE)  &kp F8           &kp F9          &kp F10     &trans
     &trans     &kp LC(A)    &kp LS(LEFT)  &trans       &kp LG(F)     &kp LS(END)   &trans                                  &trans     &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))  &kp LG(TAB)     &kp F11     &trans
     &trans     &trans       &trans        &trans       &trans        &kp C_MUTE    &trans                                  &trans     &kp K_VOL_DN     &kp LG(L)      &kp F2           &kp F3          &kp F12     &trans
-                            &trans        &trans       &trans        &LA(BSLH)     &trans      &trans        &trans        &trans     &kp LA(BSLH)     &kp LC(R)      &trans           &trans
+                            &trans        &trans       &trans        &kp LA(BSLH)     &trans      &trans        &trans     &trans     &kp LA(BSLH)     &kp LC(R)      &trans           &trans
             >;
         };
 // &trans     &trans       &trans        &trans       &trans        &trans        &trans                                  &trans     &trans           &trans                 &trans            &trans      &trans      &trans
@@ -123,11 +123,11 @@
 
             bindings = <
 
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &trans        &trans         &trans         &trans            &trans
-    &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_BRI_DEC &kp K_VOL_UP   &kp C_BRI_INC  &trans            &trans
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp K_PREV    &kp K_VOL_DOWN &kp K_NEXT     &trans            &trans
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_MUTE    &trans         &trans         &trans            &trans
-                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &trans          &trans      &kp C_PLAY_PAUSE        &trans         &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &trans             &trans         &trans         &trans            &trans
+    &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_BRI_DEC      &kp K_VOL_UP   &kp C_BRI_INC  &trans            &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp K_PREV         &kp K_VOL_DOWN &kp K_NEXT     &trans            &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_MUTE         &trans         &trans         &trans            &trans
+                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &trans          &trans      &kp C_PLAY_PAUSE   &trans         &trans
         };
 
         mouse_layer {
