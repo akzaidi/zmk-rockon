@@ -85,7 +85,7 @@
     &trans     &kp HOME     &kp UP       &kp END     &trans        &trans        &trans                                  &trans         &kp ASTRK     &kp MINUS    &kp UP         &kp PLUS    &trans           &kp HOME
     &trans     &kp LEFT     &kp DOWN     &kp RIGHT   &trans        &trans        &trans                                  &trans         &kp FSLH      &kp LEFT     &kp DOWN       &kp RIGHT   &trans           &kp END
     &trans     &trans       &trans       &trans      &trans        &trans        &trans                                  &trans         &kp EQUAL     &trans       &traans        &trans      &trans           &trans
-                            &trans       &trans      &trans        &trans        &kp TAB      &trans        &trans       &trans         &kp ALT       &kp DOT      &trans         &trans
+                            &trans       &trans      &trans        &trans        &trans       &trans        &trans       &trans         &kp ALT       &kp DOT      &trans         &trans
             >;
         };
 
