@@ -106,10 +106,10 @@
 
             bindings = <
     &trans     &trans       &trans        &trans       &trans        &trans        &trans                                  &trans        &trans           &trans         &trans             &trans          &trans      &trans
-    &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                  &trans        &kp C_PLAY_PAUSE &kp LC(GRAVE)  &kp F8             &kp F9          &kp F10     &trans
-    &trans     &kp LC(A)    &kp LG(S)     &trans       &kp LG(F)     &kp LS(END)   &trans                                  &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(TAB)     &kp F11     &trans
+    &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                  &trans        &kp C_PLAY_PAUSE &kp LG(Z)      &kp F5             &kp F9          &kp F10     &trans
+    &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                  &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(TAB)     &kp F11     &trans
     &trans     &trans       &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                  &trans        &kp K_VOL_DN     &kp LG(L)      &trans             &kp F3          &kp F12     &trans
-                            &trans        &kp LCTRL    &kp LALT      &kp LA(BSLH)  &trans      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LC(R)      &kp LC(LS(GRAVE))  &trans
+                            &trans        &trans       &trans        &kp LA(BSLH)  &trans      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LC(R)      &kp LC(LS(GRAVE))  &trans
 
             >;
         };
@@ -144,8 +144,8 @@
 
             bindings = <
     &trans     &trans       &trans       &trans       &trans        &trans     &trans                                  &trans             &trans      &trans                    &trans                    &trans                   &trans      &trans
-    &trans     &trans       &trans       &kp LC(U)    &kp LS(I)     &trans     &trans                                  &trans             &trans      &trans                    &kp LG(LS(UP_ARROW))      &trans                   &trans      &trans
-    &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &trans     &trans                                  &trans             &trans      &kp LG(LS(LEFT_ARROW))    &kp LC(LS(UP_ARROW))      &kp LG(LS(RIGHT_ARROW))  &trans      &trans
+    &trans     &trans       &trans       &kp LC(U)    &kp LS(I)     &kp LS(T)  &trans                                  &trans             &trans      &trans                    &kp LG(LS(UP_ARROW))      &kp LS(T)                &trans      &trans
+    &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &kp LS(G)  &trans                                  &trans             &trans      &kp LG(LS(LEFT_ARROW))    &kp LC(LS(UP_ARROW))      &kp LG(LS(RIGHT_ARROW))  &trans      &trans
     &trans     &trans       &trans       &trans       &kp LC(V)     &trans     &trans                                  &trans             &trans      &trans                    &trans      &trans        &trans                   &trans
                             &trans       &trans       &kp COLON     &kp ESC    &trans      &trans        &trans        &kp LC(LS(GRAVE))  &kp RSHIFT  &trans                    &trans      &trans
             >;
