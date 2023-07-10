@@ -73,7 +73,7 @@
     &kp LSHFT   &kp Q       &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &lt SYM Y      &kp U         &lt VIM I     &kp O       &kp P          &kp RSHFT       
     &kp TAB     &lt FUNC A  &lt SYM S   &lt NUM D   &lt NAV F     &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt NUM H      &lt SYM J     &lt FUNC K    &lt MEDIA L &hm RCTL SEMI  &kp TAB
     &kp GRAVE   &kp Z       &kp X       &kp C       &kp V         &kp B        &kp MINUS                                    &kp RCTRL       &lt NAV N      &kp M         &kp COMMA     &kp DOT     &kp FSLH       &kp RET
-                            &kp TILDE   &kp LCTL    &kp LALT      &kp LGUI     &kp LSHFT       &trans        &trans         &kp RSHFT       &kp SPACE      &kp RET       &kp RALT      &kp RCTRL
+                            &kp TILDE   &kp LCTL    &kp LALT      &kp LGUI     &kp LSHFT       &trans        &trans         &kp RSHFT       &kp SPACE      &kp RCTRL     &kp RALT      &kp RCTRL
                 >;
             };
 
