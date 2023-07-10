@@ -146,8 +146,8 @@
     &trans     &trans       &trans       &trans       &trans        &trans     &trans                                  &trans             &trans      &trans                    &trans                    &trans                   &trans      &trans
     &trans     &trans       &trans       &kp LC(U)    &kp LS(I)     &kp LS(T)  &trans                                  &trans             &trans      &trans                    &kp LG(LS(UP_ARROW))      &kp LS(O)                &kp LC(P)   &trans
     &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &kp LS(G)  &trans                                  &trans             &trans      &kp LG(LS(LEFT_ARROW))    &kp LC(LS(UP_ARROW))      &kp LG(LS(RIGHT_ARROW))  &trans      &trans
-    &trans     &trans       &trans       &trans       &kp LC(V)     &trans     &trans                                  &trans             &kp LC(N)   &trans                    &trans      &trans        &trans                   &trans
-                            &trans       &trans       &kp COLON     &kp ESC    &trans      &trans        &trans        &kp LC(LS(GRAVE))  &kp RSHIFT  &trans                    &trans      &trans
+    &trans     &trans       &trans       &trans       &kp LC(V)     &trans     &trans                                  &trans             &kp LC(N)   &kp LG(LS(M))                    &trans      &trans        &trans                   &trans
+                            &trans       &trans       &kp COLON     &kp ESC    &trans      &trans        &trans        &kp LC(LS(GRAVE))  &kp RSHIFT  &kp ESC                   &trans      &trans
             >;
         };
     };
