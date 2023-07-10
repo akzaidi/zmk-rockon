@@ -82,7 +82,7 @@
                 
                 bindings = <
     &trans     &trans       &trans       &trans        &trans             &trans         &trans                                  &trans         &trans            &trans            &trans             &trans      &trans           &trans
-    &trans     &kp HOME     &kp UP       &kp END       &trans             &trans         &trans                                  &trans         &trans            &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
+    &trans     &kp HOME     &kp UP       &kp END       &trans             &kp LG(T)      &trans                                  &trans         &trans            &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
     &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &trans                                  &trans         &trans            &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
     &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &trans                                  &trans         &kp LG(RBKT)      &trans            &trans             &trans      &trans           &trans
                             &trans       &trans        &kp LC(TAB)        &kp LA(BSLH)   &kp LALT      &trans        &trans      &kp LA(BSLH)   &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &trans             &trans
@@ -107,8 +107,8 @@
             bindings = <
     &trans     &trans       &trans        &trans       &trans        &trans        &trans                                  &trans        &trans           &trans         &trans             &trans          &trans      &trans
     &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                  &trans        &kp C_PLAY_PAUSE &kp LG(Z)      &kp F5             &kp F9          &kp F10     &trans
-    &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                  &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(TAB)     &kp F11     &trans
-    &trans     &kp LG(Z)    &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                  &trans        &kp K_VOL_DN     &kp LG(L)      &trans             &kp F3          &kp F12     &trans
+    &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                  &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(L)       &kp F11     &trans
+    &trans     &kp LG(Z)    &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                  &trans        &kp K_VOL_DN     &kp LSHFT      &trans             &kp F3          &kp F12     &trans
                             &trans        &trans       &trans        &kp LA(BSLH)  &trans      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LC(R)      &kp LC(LS(GRAVE))  &trans
 
             >;
