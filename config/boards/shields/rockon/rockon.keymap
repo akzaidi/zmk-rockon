@@ -143,8 +143,8 @@
             label = "Vim";
 
             bindings = <
-    &trans     &trans       &trans       &trans       trans        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
-    &trans     &trans       &trans       &kp LC(U)    &kp LS(Iß)        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
+    &trans     &trans       &trans       &trans       &trans        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
+    &trans     &trans       &trans       &kp LC(U)    &kp LS(Iß)    &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
     &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
     &trans     &trans       &trans       &trans       &kp LC(V)        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
                             &trans       &trans       &kp COLON     &kp ESC       &rans      &trans        &trans        &trans      &kp RSHIFT  &trans      &trans      &trans
