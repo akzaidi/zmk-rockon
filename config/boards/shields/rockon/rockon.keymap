@@ -70,10 +70,10 @@
             label = "Default";
             bindings = <
     &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4        &kp N5       &kp LT                                       &kp GT          &kp N6         &kp N7        &kp N8        &kp N9      &kp N0         &kp BSPC
-    &kp LSHFT   &kp Q       &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &lt SYM Y      &kp U         &lt VIM I     &kp O         &kp P       &kp TAB        
-    &kp TAB     &kp A       &lt SYM S   &lt NUM D   &lt NAV F     &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt NUM H      &lt SYM J     &lt FUNC K    &lt NAV L   &hm RCTL SEMI  &kp RSHFT
-    &kp GRAVE   &kp Z       &kp X       &kp C       &kp V         &kp B        &kp MINUS                                    &kp RCTRL       &kp N          &kp M         &kp COMMA     &kp DOT     &kp FSLH       &kp RET
-                            &kp TILDE   &kp LCTL    &kp LALT      &kp LGUI     &kp LSHFT       &trans        &trans         &kp RSHFT       &lt SYM SPACE  &kp RET       &kp RALT      &kp RCTRL
+    &kp LSHFT   &kp Q       &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &lt SYM Y      &kp U         &lt VIM I     &kp O       &kp P          &kp RSHFT       
+    &kp TAB     &lt FUNC A  &lt SYM S   &lt NUM D   &lt NAV F     &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt NUM H      &lt SYM J     &lt FUNC K    &lt MEDIA L &hm RCTL SEMI  &kp TAB
+    &kp GRAVE   &kp Z       &kp X       &kp C       &kp V         &kp B        &kp MINUS                                    &kp RCTRL       &lt NAV N      &kp M         &kp COMMA     &kp DOT     &kp FSLH       &kp RET
+                            &kp TILDE   &kp LCTL    &kp LALT      &kp LGUI     &kp LSHFT       &trans        &trans         &kp RSHFT       &kp SPACE      &kp RET       &kp RALT      &kp RCTRL
                 >;
             };
 
@@ -81,11 +81,11 @@
                 label = "Navigation";
                 
                 bindings = <
-    &trans     &trans       &trans       &trans        &trans             &trans         &trans                                  &trans         &trans        &trans            &trans             &trans      &trans           &trans
-    &trans     &kp HOME     &kp UP       &kp END       &trans             &trans         &trans                                  &trans         &trans        &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
-    &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &trans                                  &trans         &trans        &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
-    &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &trans                                  &trans         &kp LG(RBKT)  &trans            &trans             &trans      &trans           &trans
-                            &trans       &trans        &kp LC(TAB)        &kp LA(BSLH)   &kp LALT      &trans        &trans      &kp RALT       &kp LA(BSLH)  &kp LG(LS(LBKT))  &trans             &trans
+    &trans     &trans       &trans       &trans        &trans             &trans         &trans                                  &trans         &trans            &trans            &trans             &trans      &trans           &trans
+    &trans     &kp HOME     &kp UP       &kp END       &trans             &trans         &trans                                  &trans         &trans            &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
+    &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &trans                                  &trans         &trans            &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
+    &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &trans                                  &trans         &kp LG(RBKT)      &trans            &trans             &trans      &trans           &trans
+                            &trans       &trans        &kp LC(TAB)        &kp LA(BSLH)   &kp LALT      &trans        &trans      &kp LA(BSLH)   &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &trans             &trans
             >;
         };
 
@@ -93,11 +93,11 @@
             label = "Symbols";
 
             bindings = <
-    &trans     &trans       &trans       &trans          &trans           &trans        &kp LS(MINUS)                           &kp LS(PLUS)         &trans        &trans            &trans        &trans      &trans      &trans
+    &trans     &trans       &trans       &trans          &trans           &trans        &trans                                  &trans         &trans        &trans            &trans        &trans      &trans      &trans
     &trans     &kp EXCL     &kp AT       &kp HASH        &kp DLLR         &kp PRCNT     &trans                                  &trans         &kp CARET     &kp AMPS          &kp ASTRK     &kp UNDER   &kp EQUAL   &trans
-    &capsword  &kp MINUS    &kp LBKT     &kp LBRC        &kp LPAR         &kp SQT       &trans                                  &trans         &kp RPAR      &kp RBRC          &kp RBKT      &kp RBKT    &kp PLUS    &trans
-    &trans     &kp CAPS     &kp GRAVE    &kp LC(LS(TAB)) &kp LC(LG(LEFT)) &caps_word    &trans                                  &trans         &trans        &kp LC(LG(RIGHT)) &kp LC(TAB)   &trans      &kp BSLH    &trans
-                            &trans       &trans          &trans           &kp RET       &kp DEL      &trans        &trans       &kp BSPC       &kp SQT       &kp DQT            &trans       &trans
+    &capsword  &kp MINUS    &kp LBKT     &kp LBRC        &kp LPAR         &kp SQT       &trans                                  &trans         &kp GRAVE     &kp RPAR          &kp RBRC      &kp RBKT    &kp PLUS    &trans
+    &trans     &kp CAPS     &kp GRAVE    &kp LC(LS(TAB)) &kp LC(LG(LEFT)) &caps_word    &trans                                  &trans         &kp FSLH      &kp MINUS            &trans        &trans      &kp BSLH    &trans
+                            &trans       &trans          &trans           &kp RET       &kp DEL      &trans        &trans       &kp MINUS      &kp SQT       &kp DQT            &trans       &trans
             >;
         };
 
@@ -119,10 +119,10 @@
 
             bindings = <
 
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &trans             &trans         &trans         &trans            &trans
-    &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_BRI_DEC      &kp K_VOL_UP   &kp C_BRI_INC  &trans            &trans
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp K_PREV         &kp K_VOL_DN   &kp K_NEXT     &trans            &trans
-    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans      &kp C_MUTE         &trans         &trans         &trans            &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &trans         &trans             &trans         &trans         &trans            &trans
+    &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans         &kp C_BRI_DEC      &kp C_SNAPSHOT &kp C_BRI_INC  &trans            &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_UP   &kp K_PREV         &trans         &kp K_NEXT     &trans            &trans
+    &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_DN   &kp C_MUTE         &trans         &trans         &trans            &trans
                            &trans      &trans      &trans      &trans        &trans      &trans        &trans        &trans          &trans      &kp C_PLAY_PAUSE   &trans         &trans
             >;
         };
@@ -144,7 +144,7 @@
 
             bindings = <
     &trans     &trans       &trans       &trans       &trans        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
-    &trans     &trans       &trans       &kp LC(U)    &kp LS(Iß)    &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
+    &trans     &trans       &trans       &kp LC(U)    &kp LS(I)    &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
     &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
     &trans     &trans       &trans       &trans       &kp LC(V)        &trans        &trans                                  &trans     &trans      &trans      &trans      &trans      &trans      &trans
                             &trans       &trans       &kp COLON     &kp ESC       &rans      &trans        &trans        &trans      &kp RSHIFT  &trans      &trans      &trans
