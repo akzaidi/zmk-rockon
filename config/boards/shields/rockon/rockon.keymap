@@ -96,7 +96,7 @@
     &trans     &trans       &trans       &trans          &trans           &trans        &trans                                  &trans         &trans        &trans            &trans        &trans      &trans      &trans
     &trans     &kp EXCL     &kp AT       &kp HASH        &kp DLLR         &kp PRCNT     &trans                                  &trans         &kp CARET     &kp AMPS          &kp ASTRK     &kp UNDER   &kp EQUAL   &trans
     &trans     &kp MINUS    &kp LBKT     &kp LBRC        &kp LPAR         &kp SQT       &trans                                  &trans         &kp GRAVE     &kp RPAR          &kp RBRC      &kp RBKT    &kp PLUS    &trans
-    &trans     &kp CAPS     &kp GRAVE    &kp LC(LS(TAB)) &kp LC(LG(LEFT)) &caps_word    &trans                                  &trans         &kp BSLH      &kp MINUS         &trans        &trans      &kp BSLH    &trans
+    &trans     &kp CAPS     &kp GRAVE    &kp LC(LS(TAB)) &kp LC(LG(LEFT)) &caps_word    &trans                                  &trans         &kp BSLH      &kp MINUS         &trans        &kp QMARK   &kp BSLH    &trans
                             &trans       &trans          &kp FSLH         &kp QMARK     &kp DEL      &trans        &trans       &kp MINUS      &kp SQT       &kp DQT           &trans        &trans
             >;
         };
@@ -123,7 +123,7 @@
     &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans         &kp C_BRI_DEC      &kp C_SNAPSHOT &kp C_BRI_INC  &trans            &trans
     &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_UP   &kp K_PREV         &trans         &kp K_NEXT     &trans            &trans
     &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_DN   &kp C_MUTE         &trans         &trans         &trans            &trans
-                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &trans          &trans         &kp C_PLAY_PAUSE   &trans         &trans
+                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &kp LG(LS(H))   &kp LG(LS(M))  &kp C_PLAY_PAUSE   &trans         &trans
             >;
         };
 
