@@ -81,7 +81,7 @@
                 label = "Navigation";
                 
                 bindings = <
-    &trans     &trans       &trans       &trans        &kp PG_UP             &trans         &trans                                  &trans         &trans            &trans            &trans             &trans      &trans           &trans
+    &trans     &trans       &trans       &trans        &kp PG_UP          &trans         &trans                                  &trans         &trans            &trans            &trans             &trans      &trans           &trans
     &trans     &kp HOME     &kp UP       &kp END       &kp PG_DN          &kp LG(T)      &trans                                  &trans         &trans            &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
     &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &trans                                  &trans         &kp LC(LS(S))     &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
     &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &trans                                  &trans         &kp LG(RBKT)      &trans            &trans             &trans      &trans           &trans
@@ -105,11 +105,11 @@
             label = "Function";
 
             bindings = <
-    &trans     &trans       &trans        &trans       &trans        &trans        &trans                                  &trans        &trans           &trans         &trans             &trans          &trans      &trans
-    &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                  &trans        &kp C_PLAY_PAUSE &kp LG(Z)      &kp F5             &kp F9          &kp F10     &trans
-    &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                  &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(L)       &kp F11     &trans
-    &trans     &kp LG(Z)    &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                  &trans        &kp K_VOL_DN     &trans         &trans             &kp F3          &kp F12     &trans
-                            &trans        &trans       &kp LC(C)     &kp LA(BSLH)  &trans      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LSHFT      &trans             &trans
+    &trans     &trans       &trans        &trans       &trans        &trans        &trans                                         &trans        &trans           &trans         &trans             &trans          &trans      &trans
+    &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                         &trans        &kp C_PLAY_PAUSE &kp LG(Z)      &kp F5             &kp F9          &kp F10     &trans
+    &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                         &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(L)       &kp F11     &trans
+    &trans     &kp LG(Z)    &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                         &trans        &kp K_VOL_DN     &trans         &trans             &kp F3          &kp F12     &trans
+                            &trans        &trans       &kp LC(C)     &kp LA(BSLH)  &kp LG(LS(N))      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LSHFT      &trans             &trans
 
             >;
         };
@@ -123,7 +123,7 @@
     &trans     &bootloader &trans      &trans      &trans      &trans        &trans                                  &trans          &trans         &kp C_BRI_DEC      &kp C_SNAPSHOT &kp C_BRI_INC  &trans            &trans
     &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_UP   &kp K_PREV         &trans         &kp K_NEXT     &trans            &trans
     &trans     &trans      &trans      &trans      &trans      &trans        &trans                                  &trans          &kp K_VOL_DN   &kp C_MUTE         &trans         &trans         &trans            &trans
-                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &kp LG(LS(H))   &kp LG(LS(M))  &kp C_PLAY_PAUSE   &trans         &trans
+                           &trans      &trans      &trans      &trans        &trans      &trans        &trans        &kp LG(LS(H))   &kp LG(LS(M))  &kp C_PLAY_PAUSE   &kp LG(LS(O))  &trans
             >;
         };
 
@@ -131,11 +131,11 @@
             label = "Numpad";
 
             bindings = <
-    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans          &trans      &trans      &trans      &trans      &kp N0         &trans
-    &trans     &bootloader &trans      &trans      &trans           &trans            &trans                                  &trans          &trans      &kp N7      &kp N8      &kp N9      &kp PLUS       &trans
-    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans          &trans      &kp N4      &kp N5      &kp N6      &kp MINUS      &trans
-    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans          &trans      &kp N1      &kp N2      &kp N3      &kp EQUAL      &trans
-                           &trans      &trans      &kp LC(LS(LBKT)) &kp LC(LS(RBKT))  &kp LG(LS(N9))  &trans        &trans    &kp PERIOD      &kp N0      &kp FSLH    &kp HASH    &trans
+    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans      &trans                  &trans      &trans      &trans      &kp N0         &trans
+    &trans     &bootloader &trans      &trans      &trans           &trans            &trans                                  &trans      &kp LG(LC(RIGHT))       &kp N7      &kp N8      &kp N9      &kp PLUS       &trans
+    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans      &kp LG(LC(LEFT))        &kp N4      &kp N5      &kp N6      &kp MINUS      &trans
+    &trans     &trans      &trans      &trans      &trans           &trans            &trans                                  &trans      &kp LG(LS(BACKSLASH))   &kp N1      &kp N2      &kp N3      &kp EQUAL      &trans
+                           &trans      &trans      &kp LC(LS(LBKT)) &kp LC(LS(RBKT))  &kp LG(LS(N5))  &trans        &trans    &kp PERIOD  &kp N0                  &kp FSLH    &kp HASH    &trans
             >;
         };
 
@@ -143,11 +143,11 @@
             label = "Vim";
 
             bindings = <
-    &trans     &trans       &trans       &trans       &trans        &trans     &trans                                  &trans             &trans      &trans                    &trans                    &trans                   &trans      &trans
-    &trans     &trans       &trans       &kp LC(U)    &kp LS(I)     &kp LS(T)  &trans                                  &trans             &trans      &trans                    &kp LG(LS(UP_ARROW))      &kp LS(O)                &kp LC(P)   &trans
-    &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &kp LS(G)  &trans                                  &trans             &trans      &kp LG(LS(LEFT_ARROW))    &kp LC(LS(UP_ARROW))      &kp LG(LS(RIGHT_ARROW))  &trans      &trans
-    &trans     &trans       &trans       &trans       &kp LC(V)     &trans     &trans                                  &trans             &kp LC(N)   &kp LC(LS(M))                    &trans      &trans        &trans                   &trans
-                            &trans       &trans       &kp COLON     &kp ESC    &trans      &trans        &trans        &kp LC(LS(GRAVE))  &kp RSHIFT  &kp ESC                   &trans      &trans
+    &trans     &trans       &trans       &trans       &trans        &trans     &trans                                  &trans     &trans              &trans                    &trans                    &trans                   &trans      &trans
+    &trans     &trans       &trans       &kp LC(U)    &kp LS(I)     &kp LS(T)  &trans                                  &trans     &trans              &trans                    &kp LG(LS(UP_ARROW))      &kp LS(O)                &kp LC(P)   &trans
+    &trans     &trans       &kp N0       &kp LC(D)    &kp DLLR      &kp LS(G)  &trans                                  &trans     &trans              &kp LG(LS(LEFT_ARROW))    &kp LC(LS(UP_ARROW))      &kp LG(LS(RIGHT_ARROW))  &trans      &trans
+    &trans     &trans       &trans       &trans       &kp LC(V)     &trans     &trans                                  &trans     &kp LC(N)           &kp LC(LS(M))             &trans                    &trans                   &trans      &trans
+                            &trans       &trans       &kp COLON     &kp ESC    &trans      &trans        &trans        &trans     &kp LC(LS(GRAVE))   &kp ESC                   &trans      &trans
             >;
         };
     };
