@@ -83,8 +83,8 @@
                 bindings = <
     &trans     &trans       &trans       &trans        &kp PG_UP          &trans         &trans                                  &trans         &trans            &trans            &trans             &trans      &trans           &trans
     &trans     &kp HOME     &kp UP       &kp END       &kp PG_DN          &kp LG(T)      &trans                                  &trans         &trans            &trans            &kp UP             &kp PLUS    &kp HOME         &trans 
-    &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &trans                                  &trans         &kp LC(LS(S))     &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
-    &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &trans                                  &trans         &kp LG(RBKT)      &trans            &trans             &trans      &trans           &trans
+    &trans     &kp LEFT     &kp DOWN     &kp RIGHT     &kp LG(P)          &kp LG(LS(P))  &kp LC(LA(UP))                          &trans         &kp LC(LS(S))     &kp LEFT          &kp DOWN           &kp RIGHT   &kp END          &trans 
+    &trans     &trans       &trans       &trans        &trans             &kp LG(LBKT)   &kp LC(LA(DOWN))                        &trans         &kp LG(RBKT)      &trans            &trans             &trans      &trans           &trans
                             &trans       &trans        &kp LC(TAB)        &kp LA(BSLH)   &kp LALT      &trans        &trans      &kp LA(BSLH)   &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &trans             &trans
             >;
         };
