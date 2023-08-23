@@ -109,7 +109,7 @@
     &trans     &trans       &kp LC(W)     &kp LC(E)    &kp LC(R)     &kp LC(GRAVE) &trans                                         &trans        &kp C_PLAY_PAUSE &kp LG(Z)      &kp F5             &kp F9          &kp F10     &trans
     &trans     &kp LC(A)    &kp LG(S)     &kp LALT     &kp LG(F)     &kp LS(END)   &trans                                         &trans        &kp K_VOL_UP     &kp LA(TAB)    &kp LA(LS(TAB))    &kp LG(L)       &kp F11     &trans
     &trans     &kp LG(Z)    &kp LG(X)     &kp LG(C)    &kp LG(V)     &kp C_MUTE    &trans                                         &trans        &kp K_VOL_DN     &trans         &trans             &kp F3          &kp F12     &trans
-                            &trans        &trans       &kp LC(C)     &kp LA(BSLH)  &kp LG(LS(N))      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LSHFT      &trans             &trans
+                            &trans        &trans       &kp LC(C)     &kp LA(BSLH)  &kp LG(LS(N))      &trans        &trans        &kp LC(GRAVE) &kp LA(BSLH)     &kp LSFHT      &trans             &trans
 
             >;
         };
