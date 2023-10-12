@@ -71,8 +71,8 @@
             bindings = <
     &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4        &kp N5       &kp LT                                       &kp GT          &kp N6         &kp N7        &kp N8        &kp N9      &kp N0         &kp BSPC
     &kp LSHFT   &kp Q       &kp W       &kp E       &kp R         &kp T        &kp LBRC                                     &kp RBRC        &lt SYM Y      &kp U         &lt VIM I     &kp O       &kp P          &kp RSHFT       
-    &kp TAB     &lt FUNC A  &lt SYM S   &lt NUM D   &lt NAV F     &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt NUM H      &lt SYM J     &lt FUNC K    &lt MEDIA L &hm RCTL SEMI  &kp TAB
-    &kp GRAVE   &kp Z       &kp X       &kp C       &lt VIM V     &kp B        &kp MINUS                                    &kp RCTRL       &lt NAV N      &kp M         &kp COMMA     &kp DOT     &kp FSLH       &kp RET
+    &kp TAB     &lt FUNC A  &lt SYM S   &lt NUM D   &lt NAV F     &lt MEDIA G  &kp LBKT                                     &kp RBKT        &lt NUM H      &lt SYM J     &lt FUNC K    &lt MEDIA L &hm RCTL SEMI  &kp RET
+    &kp GRAVE   &kp Z       &kp X       &kp C       &lt VIM V     &kp B        &kp MINUS                                    &kp RCTRL       &lt NAV N      &kp M         &kp COMMA     &kp DOT     &kp FSLH       &kp TAB
                             &kp TILDE   &kp LCTL    &kp LALT      &kp LGUI     &kp LSHFT       &trans        &trans         &kp RSHFT       &kp SPACE      &kp RCTRL     &kp RALT      &kp ESC
                 >;
             };
